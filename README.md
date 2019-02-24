@@ -15,7 +15,7 @@ multipass launch -n testvm
 
 Copy the .snap file to the virtual machine
 ```
-multipass copy-files wethr*.snap testvm:
+multipass copy-files *.snap testvm:
 ```
 
 Connect to the virtual machine
@@ -25,7 +25,7 @@ multipass shell testvm
 
 Install the snap inside the virtual machine
 ```
-sudo snap install --dangerous wethr*.snap
+sudo snap install --dangerous *.snap
 ```
 
 
